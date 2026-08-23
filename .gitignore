@@ -1,0 +1,17 @@
+# 1. Python Cache & Environment (The Engine Exhaust)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+venv/
+.env
+
+# 2. Data & Tracking (Never commit raw customer data)
+data/raw/
+data/processed/
+mlruns/
+
+# 3. Model Artifacts (Too heavy for Git)
+models/*.pkl
+models/*.joblib
+*.joblib
