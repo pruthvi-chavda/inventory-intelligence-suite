@@ -52,7 +52,7 @@ def train_and_evaluate(model_name, file_path):
     print(f"{model_name} MAE: {mae}")
     
     
-    joblib.dump(best_model, f'E:/Projects/inventory-intelligence-suite/artifacts/model_{model_name}.joblib')
+    joblib.dump(best_model, f'../artifacts/model_{model_name}.joblib')
     print(f"Saved {model_name} artifact.\n")
 
 
